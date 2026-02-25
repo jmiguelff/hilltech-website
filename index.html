@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hilltech – Wind Energy Technology</title>
+  <meta name="description" content="Hilltech delivers cutting-edge power electronics, monitoring systems, and software solutions for the wind energy industry." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">
+        <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="20" r="3" fill="currentColor"/>
+          <!-- blade 1 -->
+          <path d="M20 17 C18 10 12 5 10 2 C14 8 17 14 20 17Z" fill="currentColor"/>
+          <!-- blade 2 -->
+          <path d="M22.6 21 C29 20 36 16 39 14 C33 17 27 19 22.6 21Z" fill="currentColor"/>
+          <!-- blade 3 -->
+          <path d="M17.4 21 C12 27 11 35 10 38 C14 33 17 27 17.4 21Z" fill="currentColor"/>
+        </svg>
+        <span>Hilltech</span>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu" role="list">
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="turbine turbine--1">
+          <div class="turbine__mast"></div>
+          <div class="turbine__hub">
+            <div class="turbine__blades" id="blades-1">
+              <span class="blade"></span>
+              <span class="blade"></span>
+              <span class="blade"></span>
+            </div>
+          </div>
+        </div>
+        <div class="turbine turbine--2">
+          <div class="turbine__mast"></div>
+          <div class="turbine__hub">
+            <div class="turbine__blades" id="blades-2">
+              <span class="blade"></span>
+              <span class="blade"></span>
+              <span class="blade"></span>
+            </div>
+          </div>
+        </div>
+        <div class="turbine turbine--3">
+          <div class="turbine__mast"></div>
+          <div class="turbine__hub">
+            <div class="turbine__blades" id="blades-3">
+              <span class="blade"></span>
+              <span class="blade"></span>
+              <span class="blade"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow">Wind Energy Technology</p>
+        <h1 class="hero__title">Powering a<br /><span class="hero__title--accent">Cleaner Future</span></h1>
+        <p class="hero__subtitle">Hilltech engineers the critical technology behind modern wind farms — from power electronics and real-time monitoring to intelligent software platforms.</p>
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--primary">Explore Our Solutions</a>
+          <a href="#about" class="btn btn--outline">Learn About Us</a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ===== STATS STRIP ===== -->
+    <section class="stats" aria-label="Key figures">
+      <div class="container stats__grid">
+        <div class="stat">
+          <span class="stat__number" data-target="2400">0</span>
+          <span class="stat__unit">MW</span>
+          <p class="stat__label">Total capacity monitored</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="340">0</span>
+          <span class="stat__unit">+</span>
+          <p class="stat__label">Wind turbines equipped</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="18">0</span>
+          <span class="stat__unit"></span>
+          <p class="stat__label">Countries served</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="99">0</span>
+          <span class="stat__unit">%</span>
+          <p class="stat__label">Avg. system uptime</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">What We Do</p>
+          <h2 class="section__title">End-to-End Wind Technology</h2>
+          <p class="section__subtitle">We deliver integrated solutions across every layer of the wind energy stack.</p>
+        </div>
+        <div class="services__grid">
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="30" width="6" height="12" rx="1" fill="currentColor" opacity=".3"/>
+                <rect x="17" y="22" width="6" height="20" rx="1" fill="currentColor" opacity=".6"/>
+                <rect x="26" y="14" width="6" height="28" rx="1" fill="currentColor" opacity=".8"/>
+                <rect x="35" y="6" width="6" height="36" rx="1" fill="currentColor"/>
+                <path d="M6 38 L14 30 L22 24 L30 16 L38 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Power Electronics</h3>
+            <p class="service-card__text">Custom converters, frequency drives, and grid-interface power modules engineered for the harsh environments of on- and offshore wind farms. Our hardware maximises energy capture across the full operational envelope.</p>
+            <ul class="service-card__list">
+              <li>Full-power converter design</li>
+              <li>LVRT &amp; grid-code compliance</li>
+              <li>Thermal &amp; EMC management</li>
+              <li>Retrofit and upgrade programmes</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 10 V14 M24 34 V38 M10 24 H14 M34 24 H38" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="24" cy="24" r="4" fill="currentColor"/>
+                <path d="M16 16 L20 20 M28 28 L32 32 M28 20 L32 16 M16 32 L20 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Condition Monitoring</h3>
+            <p class="service-card__text">Real-time SCADA integration, vibration analytics, and predictive diagnostics keep your turbines running at peak performance while cutting unplanned downtime and O&amp;M costs.</p>
+            <ul class="service-card__list">
+              <li>SCADA &amp; data acquisition</li>
+              <li>Vibration &amp; acoustic analysis</li>
+              <li>Predictive maintenance alerts</li>
+              <li>Remote fault diagnostics</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="8" width="32" height="26" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M16 34 L16 40 M32 34 L32 40 M12 40 H36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M14 20 L18 16 L22 20 L26 15 L30 19 L34 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Software Platforms</h3>
+            <p class="service-card__text">Cloud-native fleet management dashboards, digital-twin simulations, and API integrations that give operators unprecedented visibility and control over their entire wind portfolio.</p>
+            <ul class="service-card__list">
+              <li>Fleet management dashboard</li>
+              <li>Digital-twin simulations</li>
+              <li>REST &amp; MQTT API integration</li>
+              <li>AI-powered yield optimisation</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4 L28 14 L38 14 L30 21 L33 32 L24 26 L15 32 L18 21 L10 14 L20 14 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <circle cx="24" cy="36" r="6" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 30 V26 M24 42 V46" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Control Systems</h3>
+            <p class="service-card__text">From pitch and yaw control to park-level active power management, our real-time embedded controllers are certified for safety-critical wind applications and continuously updated over-the-air.</p>
+            <ul class="service-card__list">
+              <li>Pitch &amp; yaw control</li>
+              <li>Park-level power management</li>
+              <li>OTA firmware management</li>
+              <li>IEC 61400 certification support</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 36 Q16 20 24 28 Q32 36 40 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="8" cy="36" r="2" fill="currentColor"/>
+                <circle cx="24" cy="28" r="2" fill="currentColor"/>
+                <circle cx="40" cy="12" r="2" fill="currentColor"/>
+                <path d="M4 40 H44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".4"/>
+                <path d="M4 4 V40" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".4"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Grid Analytics</h3>
+            <p class="service-card__text">Power quality monitoring, harmonic analysis, and grid-stability studies that help operators maintain compliance, optimise curtailment, and negotiate better grid connection agreements.</p>
+            <ul class="service-card__list">
+              <li>Power quality measurement</li>
+              <li>Harmonic &amp; flicker analysis</li>
+              <li>Grid stability studies</li>
+              <li>Curtailment optimisation</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="6" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="36" cy="12" r="6" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="24" cy="36" r="6" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M17 14 L31 14 M14.5 17 L21 31 M33.5 17 L27 31" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Cybersecurity</h3>
+            <p class="service-card__text">IEC 62443-aligned security frameworks, encrypted communications, and 24/7 SOC monitoring protect your operational technology from increasingly sophisticated cyber threats targeting energy infrastructure.</p>
+            <ul class="service-card__list">
+              <li>IEC 62443 compliance</li>
+              <li>OT network segmentation</li>
+              <li>Encrypted SCADA comms</li>
+              <li>24/7 SOC monitoring</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__visual" aria-hidden="true">
+          <div class="about__visual-inner">
+            <div class="about__ring about__ring--1"></div>
+            <div class="about__ring about__ring--2"></div>
+            <div class="about__ring about__ring--3"></div>
+            <svg class="about__turbine-icon" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="56" y="80" width="8" height="120" rx="4" fill="currentColor" opacity=".5"/>
+              <circle cx="60" cy="80" r="6" fill="currentColor"/>
+              <path d="M60 74 C58 55 50 32 44 14 C50 32 56 55 60 74Z" fill="currentColor"/>
+              <path d="M65 83 C82 76 102 74 118 70 C102 74 83 77 65 83Z" fill="currentColor"/>
+              <path d="M55 83 C40 96 28 114 20 130 C28 114 40 97 55 83Z" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__eyebrow">About Hilltech</p>
+          <h2 class="section__title">Built by Engineers,<br />For Engineers</h2>
+          <p class="about__text">Hilltech was founded in 2012 by a team of power-systems engineers who saw a gap between commodity wind technology and the precision engineering that utility-scale projects demand. Today our 120-strong team operates from offices in Hamburg, Copenhagen, and Bilbao, serving wind developers, IPPs, and turbine OEMs across Europe, North America, and Asia-Pacific.</p>
+          <p class="about__text">We don't believe in black boxes. Every product we ship is designed to be understood, maintained, and upgraded by your own operations team — backed by our round-the-clock engineering support.</p>
+          <div class="about__values">
+            <div class="value">
+              <div class="value__icon" aria-hidden="true">⚡</div>
+              <div>
+                <h4 class="value__title">Performance First</h4>
+                <p class="value__text">Every design decision traces back to maximising AEP and minimising losses.</p>
+              </div>
+            </div>
+            <div class="value">
+              <div class="value__icon" aria-hidden="true">🔬</div>
+              <div>
+                <h4 class="value__title">Deep Engineering</h4>
+                <p class="value__text">Our team includes PhDs in power electronics, control theory, and signal processing.</p>
+              </div>
+            </div>
+            <div class="value">
+              <div class="value__icon" aria-hidden="true">🌍</div>
+              <div>
+                <h4 class="value__title">Open Standards</h4>
+                <p class="value__text">We champion IEC, IEEE, and CIM standards so your investments stay vendor-independent.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Case Studies</p>
+          <h2 class="section__title">Projects That Define Us</h2>
+          <p class="section__subtitle">A selection of landmark deployments across wind markets worldwide.</p>
+        </div>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__badge">Offshore</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">North Sea Cluster — 480 MW</h3>
+              <p class="project-card__text">Delivered full-power converter upgrades and a unified SCADA platform for 96 offshore turbines, reducing unplanned downtime by 38% in the first operational year.</p>
+              <div class="project-card__tags">
+                <span class="tag">Power Electronics</span>
+                <span class="tag">Monitoring</span>
+                <span class="tag">SCADA</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__badge project-card__badge--land">Onshore</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Iberian Wind Portfolio — 210 MW</h3>
+              <p class="project-card__text">Implemented AI-powered yield optimisation software across a 14-site portfolio, delivering a 6.2% increase in annual energy production without hardware modifications.</p>
+              <div class="project-card__tags">
+                <span class="tag">Software</span>
+                <span class="tag">AI / ML</span>
+                <span class="tag">Grid Analytics</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__badge project-card__badge--hybrid">Hybrid</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Baltic Grid Stabilisation — 320 MW</h3>
+              <p class="project-card__text">Designed and deployed an active power control system that enables synthetic inertia, helping the grid operator meet new stability requirements while increasing dispatch flexibility.</p>
+              <div class="project-card__tags">
+                <span class="tag">Control Systems</span>
+                <span class="tag">Grid Analytics</span>
+                <span class="tag">Cybersecurity</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="section__eyebrow">Get In Touch</p>
+          <h2 class="section__title">Let's Build Something Together</h2>
+          <p class="contact__text">Whether you're planning a new wind farm, upgrading an existing fleet, or exploring what better data could do for your O&amp;M strategy — we'd love to hear from you.</p>
+          <ul class="contact__details" role="list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.06 1.19 2 2 0 012 .04h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14h.01v2.92z"/></svg>
+              <span>+49 40 1234 5678</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>hello@hilltech.energy</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Hafenstraße 12, 20459 Hamburg, Germany</span>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option value="power-electronics">Power Electronics</option>
+              <option value="monitoring">Condition Monitoring</option>
+              <option value="software">Software Platforms</option>
+              <option value="control">Control Systems</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-success" id="form-success" aria-live="polite" hidden>Thanks! We'll be in touch soon.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo footer__logo">
+          <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+            <path d="M20 17 C18 10 12 5 10 2 C14 8 17 14 20 17Z" fill="currentColor"/>
+            <path d="M22.6 21 C29 20 36 16 39 14 C33 17 27 19 22.6 21Z" fill="currentColor"/>
+            <path d="M17.4 21 C12 27 11 35 10 38 C14 33 17 27 17.4 21Z" fill="currentColor"/>
+          </svg>
+          <span>Hilltech</span>
+        </a>
+        <p class="footer__tagline">Engineering the backbone of wind energy.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <div class="footer__col">
+          <h4>Solutions</h4>
+          <ul role="list">
+            <li><a href="#services">Power Electronics</a></li>
+            <li><a href="#services">Condition Monitoring</a></li>
+            <li><a href="#services">Software Platforms</a></li>
+            <li><a href="#services">Control Systems</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul role="list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Case Studies</a></li>
+            <li><a href="#contact">Careers</a></li>
+            <li><a href="#contact">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Connect</h4>
+          <ul role="list">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Hilltech GmbH. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> &middot; <a href="#">Imprint</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
