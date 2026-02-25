@@ -579,7 +579,9 @@ input, textarea, select {
   align-items: start;
 }
 .contact__text { color: var(--clr-text-muted); margin-bottom: var(--space-8); font-size: var(--fs-md); }
-.contact__details { display: grid; gap: var(--space-4); }
+.contact__facility-title { font-size: var(--fs-md); font-weight: 600; color: var(--clr-text); margin-bottom: var(--space-3); margin-top: var(--space-6); }
+.contact__facility-title:first-of-type { margin-top: 0; }
+.contact__details { display: grid; gap: var(--space-4); margin-bottom: var(--space-4); }
 .contact__details li {
   display: flex;
   align-items: center;
