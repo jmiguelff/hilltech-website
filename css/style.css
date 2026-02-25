@@ -1,5 +1,5 @@
 /* ================================================================
-   Hilltech – Wind Energy Technology
+   Hill Tech – Wind Energy Technology
    style.css
    ================================================================ */
 
@@ -274,6 +274,7 @@ input, textarea, select {
 
 .blade {
   position: absolute;
+  bottom: 0;
   display: block;
   transform-origin: bottom center;
 }
